@@ -9,11 +9,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -30,8 +25,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
       - name: Build with Eleventy
         run: |
           npm install
@@ -40,8 +33,6 @@ jobs:
         run: npm run postbuild
       - name: fr fallback homepage
         run: "cp _site/fr/index.html _site/index.html"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
 
   # Deployment job
   web-deploy:
