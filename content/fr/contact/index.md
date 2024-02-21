@@ -6,5 +6,5 @@ eleventyNavigation:
   parent: À propos
   order: 2
 ---
-
-<contact@code.gouv.fr>
+Pour nous contacter : 
+<contact@mediationlogement.beta.gouv.fr>

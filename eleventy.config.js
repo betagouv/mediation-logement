@@ -10,7 +10,6 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const {EleventyI18nPlugin} = require("@11ty/eleventy");
 const i18n = require("@codegouvfr/eleventy-plugin-i18n");
-const pluginCalendar = require("@codegouvfr/eleventy-plugin-calendar");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
 
@@ -61,7 +60,6 @@ module.exports = function (eleventyConfig) {
             "en": "fr"
         }
     });
-    eleventyConfig.addPlugin(pluginCalendar);
 
     // Custom collections
     eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {
