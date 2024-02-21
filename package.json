@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-dsfr",
-  "version": "1.1.0",
-  "description": "Une base de code pour déployer un site/blog statique avec Eleventy et le DSFR.",
+  "name": "mediation-logement",
+  "version": "0.1",
+  "description": "L'objectif de Médiation Logement est de résoudre les litiges locatifs entre locataires et bailleurs par la médiation. La start-up d'Etat est portée par La Fabrique Numérique de l'Ecologie (MTE-MCT). Ce service numérique est sponsorisé par Direction générale de l'Aménagement, du Logement et de la Nature , Ministère de la Transition Écologique.",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "postbuild": "npx pagefind --site _site/ --output-subdir \"_pagefind\"",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:codegouvfr/eleventy-dsfr.git"
+    "url": "git@github.com:betagouv/mediation-logement.git"
   },
   "author": {
-    "name": "Mission logiciels libres (DINUM)",
-    "email": "contact@code.gouv.fr",
-    "url": "https://code.gouv.fr/mission/"
+    "name": "Médiation Logement",
+    "email": "contact@mediationlogement.beta.gouv.fr",
+    "url": "https://mediationlogement.beta.gouv.fr"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14"
   },
-  "homepage": "https://codegouvfr.github.io/eleventy-dsfr/",
+  "homepage": "https://mediationlogement.beta.gouv.fr",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",

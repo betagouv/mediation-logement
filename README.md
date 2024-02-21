@@ -2,6 +2,20 @@
 Ce dépôt contient le code source du site internet de la start-up d'Etat *Médiation Logement*.
 Le site est généré grâce à [Eleventy](https://www.11ty.dev/).
 
+## Installation
+Cloner le dépôt et installer les dépendances
+```bash
+git clone https://github.com/betagouv/mediation-logement.git
+cd mediation-logement
+npm install
+```
+
+Exécuter Eleventy
+```bash
+npm run build
+npm start
+```
+
 ## Licence
 
 Le dépôt est publié sous licence MIT pour le code et sous licence
