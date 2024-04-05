@@ -19,7 +19,7 @@ module.exports = {
     sourcehut_url: "",
     repository_url: "",
     language: "fr",
-    description: "Résoudre les litiges locatifs entre locataires et bailleurs par la médiation",
+    description: "Le service de l'Etat pour récupérer mon dépôt de garantie",
     author: {
         name: "Médiation Logement",
         email: "contact@mediationlogement.beta.gouv.fr",
