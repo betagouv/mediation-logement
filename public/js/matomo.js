@@ -4,7 +4,7 @@ _paq.push(["setExcludedQueryParams", ["simulationId", "_csrf"]]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function () {
-    var u = "https://stats.data.gouv.fr/";
+    var u = "https://stats.beta.gouv.fr/";
     _paq.push(['setTrackerUrl', u + 'matomo.php']);
     _paq.push(['setSiteId', '112']);
     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
