@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ page.lang }}" data-fr-scheme="system" dir="ltr">
+<html lang="{{ page.lang }}" data-fr-scheme="light" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
@@ -47,13 +47,17 @@
 {% js "top" %}
   <script>
       // Fix FOUC in dark mode
-      setDarkBeforeRender = () => {
+      /* setDarkBeforeRender = () => {
           const localScheme = localStorage.getItem('scheme')
           if (localScheme === 'dark' || (localScheme === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-              document.documentElement.setAttribute('data-fr-theme', 'dark');
+              document.documentElement.setAttribute('data-fr-theme', 'light');
+          } else {
+            document.documentElement.setAttribute('data-fr-theme', 'light');
           }
       }
-      setDarkBeforeRender();
+      document.documentElement.setAttribute('data-fr-theme', 'light');
+    
+      setDarkBeforeRender(); */
   </script>
 {% endjs %}
 {% js "body" %}
