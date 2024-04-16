@@ -19,7 +19,7 @@ module.exports = {
     sourcehut_url: "",
     repository_url: "",
     language: "fr",
-    description: "Le service de l'Etat pour récupérer mon dépôt de garantie",
+    description: "Le service de l'État pour récupérer mon dépôt de garantie",
     author: {
         name: "Médiation Logement",
         email: "contact@mediationlogement.beta.gouv.fr",
