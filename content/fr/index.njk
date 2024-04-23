@@ -5,72 +5,95 @@ eleventyNavigation:
   key: Accueil
   order: 1
 ---
-<div class="fr-py-6w">
+<div class="fr-py-12w">
   <div class="fr-container">
-    <div class="fr-grid-row fr-grid-row--center fr-mb-4w">
-      <div class="fr-col-9 fr-col-lg-6">
-        <h1>Récupérer mon dépôt de garantie</h1>
-        <p class="fr-mb-5w fr-text">Souvent appelée <b>la caution</b>, c'est la somme d'argent versée au début de la location pour garantir le rendu en bon état du logement.</p>
-        <p class="fr-mb-5w fr-text">Elle doit être restituée à la fin du contrat de location selon la situation.</p>
+    <div class="fr-grid-row fr-grid-row--center fr-mb-16w">
+      <div class="fr-col-10 fr-col-lg-5">
+        <h1 class="fr-display--sm fr-mb-6w" style="color:var(--text-title-grey)">Récupérer mon dépôt de garantie</h1>
+        <p class="fr-mb-3w fr-text--lead" style="color:var(--text-disabled-grey);">Souvent appelée <b>la caution</b>, c'est la somme d'argent versée au début de la location pour garantir le rendu en bon état du logement.</p>
+        <p class="fr-mb-6w fr-text--lead" style="color:var(--text-disabled-grey);">Elle doit être restituée à la fin du contrat de location selon la situation.</p>
         <p></p>
-        <p class="fr-text fr-mb-1w"><b>Votre dépôt de garantie doit-il vous être rendu ?</b></p>
+        <p class="fr-text--lg fr-mb-1w">
+          <b>Votre dépôt de garantie doit-il vous être rendu ?</b>
+        </p>
         <!-- TODO : onclick="location.href='/fr/simulateur/'" -->
         <button class="fr-btn fr-icon-home-4-fill fr-btn--icon-left" disabled>
           Démarrer la démarche en ligne (à venir)
         </button>
-        <p class="fr-mb-5w fr-text--sm">Durée : 5 minutes</p>
+        <p class="fr-text--sm">Durée : 5 minutes</p>
       </div>
-      <div class="fr-hidden fr-unhidden-md fr-col-md-4 fr-col-2 fr-col-offset-1">
+      <div class="fr-hidden fr-unhidden-lg fr-col-2 fr-col-lg-2 fr-col-offset-2">
         <img src="/img/icon_home.svg" alt="" width="256">
       </div>
     </div>
     <!-- Séparation et titre -->
-    <div class="fr-grid-row fr-mb-6w">
-      <div class="fr-col-12" style="border-bottom:1px solid var(--background-default-grey-active);">
-        </div>
-    </div>
     <div class="fr-grid-row fr-grid-row--center">
-      <div class="fr-col-12">
+      <div class="fr-col-9" style="border-bottom:1px solid var(--background-default-grey-active);"></div>
+    </div>
+    <div class="fr-grid-row fr-grid-row--center fr-mb-6w fr-mt-8w">
+      <div class="fr-col-9">
         <center>
-          <h2>Comment ça marche ?</h2>
-          </center>
-        </div>
+          <h2 class="fr-h1">Comment ça marche ?</h2>
+        </center>
+      </div>
     </div>
     <!-- Trois colonnes des étapes -->
+    <div class="fr-grid-row fr-grid-row--center fr-mb-16w">
+      <div class="fr-col-xl-3 fr-col-10">
+        <div class="fr-grid-row">
+          <div class="fr-col-xl-2 fr-col-12 fr-mr-1w">
+            <p class="fr-display--md fr-text--alt" style="color: var(--text-title-blue-france); line-height: 4rem !important;">1.</p>
+          </div>
+          <div class="fr-col-9 fr-mt-md-4w">
+            <p class="fr-text--lead" style="font-weight:bold; line-height: 1.6rem !important;">Répondez aux questions du simulateur</p>
+            <p class="fr-mt-n1w">Munissez-vous de votre bail et laissez vous guider. 5 minutes maximum !</p>
+          </div>
+        </div>
+      </div>
+      <div class="fr-col-xl-3 fr-col-10 fr-col-offset-xl-1">
+        <div class="fr-grid-row">
+          <div class="fr-col-xl-2 fr-col-12 fr-mr-1w">
+            <p class="fr-display--md fr-text--alt" style="color: var(--text-title-blue-france); line-height: 4rem !important;">2.</p>
+          </div>
+          <div class="fr-col-9 fr-mt-md-4w">
+            <p class="fr-text--lead" style="font-weight:bold; line-height: 1.6rem !important;">Comprenez si vous pouvez récupérer votre dépôt de garantie</p>
+            <p class="fr-mt-n1w">Médiation Logement analyse votre situation et vous informe de vos droits.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fr-col-xl-3 fr-col-10 fr-col-offset-xl-1">
+        <div class="fr-grid-row">
+          <div class="fr-col-xl-2 fr-col-12 fr-mr-1w">
+            <p class="fr-display--md fr-text--alt" style="color: var(--text-title-blue-france); line-height: 4rem !important;">3.</p>
+          </div>
+          <div class="fr-col-9 fr-mt-md-4w">
+            <p class="fr-text--lead" style="font-weight:bold; line-height: 1.6rem !important;">Nous vous accompagnons dans votre démarche</p>
+            <p class="fr-mt-n1w">Un email personnalisé est rédigé automatiquement. Après relecture, envoyez-le à votre propriétaire.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Qui sommes-nous ? -->
     <div class="fr-grid-row fr-grid-row--center">
-      <div class="fr-col-lg-3 fr-col-10">
-        <div class="fr-grid-row">
-          <div class="fr-col-lg-2 fr-col-12">
-            <p class="fr-display--xs" style="color: var(--text-title-blue-france)">1.</p>
-          </div>
-          <div class="fr-col-10">
-            <p style="font-weight:bold;">Répondez aux questions du simulateur</p>
-            <p>Munissez-vous de votre bail et laissez vous guider. 5 minutes maximum !</p>
-          </div>
-        </div>
+      <div class="fr-col-9" style="border-bottom:1px solid var(--background-default-grey-active);"></div>
+    </div>
+    <div class="fr-grid-row fr-grid-row--center fr-mb-6w fr-mt-8w">
+      <div class="fr-col-9">
+        <center>
+          <h2 class="fr-h1">Qui sommes-nous ?</h2>
+        </center>
       </div>
-      <div class="fr-col-lg-3 fr-col-10">
-        <div class="fr-grid-row">
-          <div class="fr-col-lg-2 fr-col-12">
-            <p class="fr-display--xs" style="color: var(--text-title-blue-france)">2.</p>
-          </div>
-          <div class="fr-col-10">
-        <p style="font-weight:bold;">Comprenez si vous pouvez récupérer votre dépôt de garantie</p>
-        <p>Médiation Logement analyse votre situation et vous informe de vos droits.</p>
-          </div>
-        </div>
+    </div>
+    <div class="fr-grid-row fr-grid-row--center fr-mb-4w fr-mt-4w">
+      <div class="fr-col-9">
+        <p>
+          Médiation Logement est une start-up d’État portée par le <a href="https://www.ecologie.gouv.fr/" target="_blank">Ministère de la Transition Écologique et de la Cohésion des Territoires</a> et accompagnée par le dispositif <a href="https://beta.gouv.fr/" target="_blank">Beta.gouv.fr</a>.
+          </p>
+          </br>
+        <p>
+          Pour toute question écrivez-nous à <a href="mailto:contact@mediationlogement.beta.gouv.fr?subject=Contacter%20M%C3%A9diation%20Logement">contact@mediationlogement.beta.gouv.fr</a>.
+        </p>
       </div>
-      <div class="fr-col-lg-3 fr-col-10">
-        <div class="fr-grid-row">
-          <div class="fr-col-lg-2 fr-col-12">
-            <p class="fr-display--xs" style="color: var(--text-title-blue-france)">3.</p>
-          </div>
-          <div class="fr-col-10">
-        <p style="font-weight:bold;">Nous vous accompagnons dans votre démarche</p>
-        <p>Un email personnalisé est rédigé automatiquement. Après relecture, envoyez-le à votre propriétaire.</p>
-          </div>
-        </div>
-      </div>  
     </div>
   </div>
 </div>
