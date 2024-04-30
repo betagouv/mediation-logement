@@ -27,12 +27,10 @@
 
   <meta name="generator" content="{{ eleventy.generator }}">
 
-  <title>{{ title or metadata.title }}</title>
+  <title>{{ title or metadata.title }} - Médiation Logement</title>
 </head>
 <body id="top">
 {% getBundle "js", "top" %}
-
-{% include "templates/header.njk" %}
 
 <main id="content">
   {{ content | safe }}
